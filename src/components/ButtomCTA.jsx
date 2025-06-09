@@ -1,0 +1,29 @@
+import { Button } from "@mui/material"
+
+const ButtomCTA = () => {
+  return (
+    <Button
+      variant="contained"
+      sx={{
+        padding: '20px 30px',
+        borderRadius: '10px',
+        gap: '10px',
+        fontWeight: 700,
+        fontSize: '20px',
+        textTransform: 'none',
+        fontFamily: 'DM Sans',
+        backgroundColor: 'primary.main',
+        '&:hover': {
+          backgroundColor: 'primary.dark',
+        },
+      }}
+    >
+      Realiza tu trámite ahora
+      <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.1875 7.71875L9.1875 12.7188C9 12.9062 8.75 13 8.5 13C8.21875 13 7.96875 12.9062 7.78125 12.7188C7.375 12.3438 7.375 11.6875 7.78125 11.3125L11.0625 8H1.5C0.9375 8 0.5 7.5625 0.5 7C0.5 6.46875 0.9375 6 1.5 6H11.0625L7.78125 2.71875C7.375 2.34375 7.375 1.6875 7.78125 1.3125C8.15625 0.90625 8.8125 0.90625 9.1875 1.3125L14.1875 6.3125C14.5938 6.6875 14.5938 7.34375 14.1875 7.71875Z" fill="white" />
+      </svg>
+
+    </Button>
+  )
+}
+export default ButtomCTA
