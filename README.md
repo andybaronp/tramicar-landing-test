@@ -1,12 +1,51 @@
-# React + Vite
+# 🚗 Tramicar Landing Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page desarrollada como prueba técnica para maquetación frontend.
 
-Currently, two official plugins are available:
+🔗 **Deploy:**  
+👉 [https://tramicar-landing-test.netlify.app](https://tramicar-landing-test.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📁 **Repositorio:**  
+👉 [github.com/andybaronp/tramicar-landing-test](https://github.com/andybaronp/tramicar-landing-test)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías usadas
+
+- React
+- Vite
+- Material UI (MUI)
+- JavaScript
+
+> 🧩 Se trabajó únicamente con **JavaScript**, ya que el proyecto no requiere lógica compleja.
+>
+> 📱 Se implementó una adaptación **básica para mobile**, centrando el trabajo principalmente en la versión desktop.
+
+---
+
+## 🚀 ¿Cómo correr el proyecto?
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/andybaronp/tramicar-landing-test.git
+cd tramicar-landing-test
+```
+
+### 2. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 3. Correr el proyecto en modo desarrollo
+
+```bash
+npm run dev
+```
+
+### 4. Generar build de producción
+
+```bash
+npm run build
+```
