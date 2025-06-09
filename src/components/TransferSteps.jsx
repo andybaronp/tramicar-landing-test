@@ -72,7 +72,7 @@ const TransferSteps = () => {
           direction={{ xs: 'column', md: 'row' }}
           spacing={4}
           justifyContent="space-between"
-          alignItems="flex-start"
+          alignItems="center"
           sx={{ mb: 5 }}
         >
           {steps.map(({ number, title, description }) => (

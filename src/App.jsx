@@ -15,7 +15,13 @@ function App() {
       <Box
         component="main"
         flex={1}
+        sx={{
+          mx: 'auto',
+          px: { xs: 2, md: '40px' },
+          display: 'flex',
+          flexDirection: 'column',
 
+        }}
       >
         {/* Hero */}
         <Hero />

@@ -7,10 +7,12 @@ const Footer = () => {
       component="footer"
       sx={{
         display: 'flex',
-        justifyContent: 'space-between',
+        justifyContent: { xs: 'center', md: 'space-between' },
         alignItems: 'center',
         color: theme.palette.custom.footerTextColor,
         textAlign: 'center',
+        flexDirection: { xs: 'column', md: 'row' },
+        flexWrap: 'wrap',
         p: 2,
       }}
       maxWidth='lg'

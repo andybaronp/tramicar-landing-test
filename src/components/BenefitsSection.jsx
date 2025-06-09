@@ -65,7 +65,7 @@ const BenefitsSection = () => {
         direction={{ xs: 'column', md: 'row' }}
         spacing={4}
         justifyContent="space-between"
-        alignItems="flex-start"
+        alignItems={{ xs: 'center', md: 'flex-start' }}
         sx={{ mb: 6 }}
       >
         {benefits.map(({ icon, title, description }, index) => (

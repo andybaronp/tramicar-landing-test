@@ -9,7 +9,8 @@ const Hero = () => {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',
-      flexWrap: { xs: 'wrap', md: 'nowrap' },
+      flexDirection: { xs: 'column', md: 'row' },
+      flexWrap: 'wrap',
       lineHeight: '52px',
       textAlign: 'left',
 
@@ -17,7 +18,7 @@ const Hero = () => {
       maxWidth='lg'
     >
       {/* TEXTO */}
-      <Box flex={1} minWidth={700} mt={15} mr={-10}>
+      <Box flex={1} mt={15} mr={{ xs: 0, lg: -10 }}>
         <Typography variant="h3" component="h1" gutterBottom fontWeight="bold" sx={{ fontSize: '46px', }}  >
           <Box component="span" fontWeight="bold" color="primary.main">Esto es una prueba</Box> para demostrar tus capacidades de <Box component="span" color="primary.main">maquetación</Box>
         </Typography>
