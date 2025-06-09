@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { CssBaseline } from '@mui/material';
 
 const theme = createTheme({
   palette: {
@@ -15,6 +16,7 @@ const theme = createTheme({
       translucentBackground: 'rgba(228, 231, 250, 0.52)',
       footerTextColor: '#919090',
       textBlack: '#272D38',
+      textBlue: '#3F65F0'
     },
   },
   typography: {
@@ -23,6 +25,7 @@ const theme = createTheme({
 })
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <CssBaseline />
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>

@@ -1,27 +1,33 @@
 import './App.css'
-import { Box, Container } from '@mui/material'
+import { Box } from '@mui/material'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
+import TransferSteps from './components/TransferSteps'
+import BenefitsSection from './components/BenefitsSection'
+import LegalNotice from './components/LegalNotice'
 
 function App() {
   return (
-    <Container maxWidth="xl" >
+    <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: '80px 20px 20px 20px' }}  >
       <Header />
       <Box
         component="main"
+        flex={1}
 
       >
         {/* Hero */}
         <Hero />
-        {/* Features */}
-        {/* Testimonials */}
-        {/* Call to Action */}
-        {/* Sections */}
+        {/* StepSection */}
+        <TransferSteps />
+        {/* BenefitsSection */}
+        <BenefitsSection />
+        {/* LegalNotice */}
+        <LegalNotice />
       </Box>
       <Footer />
-    </Container>
+    </Box>
   )
 }
 
