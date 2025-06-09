@@ -3,7 +3,7 @@ import Logo from '../assets/logo.svg';
 
 const Header = () => {
   return (
-    <Container   >
+    <Container sx={{ paddingBottom: 2 }} >
       <Box
         component="header"
         sx={{
@@ -11,7 +11,6 @@ const Header = () => {
           alignItems: 'center',
           height: '88px',
           width: '100%',
-          marginBottom: '40px',
         }}
       >
         <Box
